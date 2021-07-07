@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create form</title>
+</head>
+<body>
+<form action="" method="get " style="font-family: sans-serif;">
+    <h1>Order Form</h1>
+    <label for="buy">What would you like to buy ?</label>
+    <br>
+    <br>
+    <select name="buy" id="buy">
+        <option value="0">A</option>
+        <option value="1">B</option>
+        <option value="2">C</option>
+        <option value="3">D</option>
+    </select>
+    <br>
+    <br>
+    <label for="price">How many would you like to order?</label>
+    <br>
+    <br>
+    <label for="price">
+        <input type="radio" name="price" id="price" value="10" checked> 1 - $10<br>
+        <input type="radio" name="price"  value="20" > 2 - $20<br>
+        <input type="radio" name="price"  value="25" > 3 - $25<br>
+    </label>
+    <br>
+    <label for="firstname">Name <span style="color: #f80000">*</span></label>
+    <br>
+    <br>
+    <label>
+        <input type="text" name="firstname" id="firstname" placeholder="FirstName">
+        <input type="text" name="lastname" placeholder="LastName">
+    </label>
+    <br>
+    <br>
+    <label for="email">Email</label>
+    <br>
+    <br>
+    <label>
+        <input type="email" class="email" id="email" name="email">
+    </label>
+    <br>
+    <br>
+    <label for="number">Phone Number</label>
+    <br>
+    <br>
+    <label>
+        <input type="number" class="number" id="number" name="number"> --
+        <input type="number" class="number" name="number"> --
+        <input type="number" class="number" name="number">
+    </label>
+    <br>
+    <br>
+    <input type="submit">
+
+
+</form>
+</body>
+</html>
